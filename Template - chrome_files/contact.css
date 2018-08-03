@@ -1,0 +1,42 @@
+.contact_form label {
+width: 130px;
+display: block;
+text-align: left;
+vertical-align: top;
+}
+
+.contact_form input{
+width: 200px;
+height: 20px;
+
+
+
+
+
+}
+
+
+
+
+
+
+.form_hint{
+font-size: 10px;
+background: #d45252;
+border-radius: 3px 3px 3px 3px;
+colour: yellow;
+margin-left: 5px; 
+padding: 1px 5px;
+position: absolute;
+display: none;
+
+}
+
+.form_hint:before {
+content:"\25C0";
+position: absolute;
+color: #d45252;
+top: 1px;
+left: -6px;
+
+}
